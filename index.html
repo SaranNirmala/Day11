@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+<form action="survey">
+    <label for="name"><b>Name</b><span  style="color:red">*</span></label> <br>
+   <div class="input-icon input-icon-right">
+    <input type="text" name="firstName" id="firstName" maxlength="10" required>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lastName" id="lastName"> <br>
+    <figcaption id="fig"><span style="font-size: 10px;">First</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 10px;">Last</span></figcaption> 
+   </div>
+   <label for="email"><b>Email</b><span  style="color:red">*</span></label> <br>
+    <input type="email" name="email" id="email" required> <br><br>
+        <div><b>Your Experience<span  style="color:red">*</span></b></div>
+                <span class="fa fa-star checked" style="color: rgb(236, 181, 108);"></span>
+                <span class="fa fa-star checked" style="color: rgb(236, 181, 108);"></span>
+                <span class="fa fa-star checked" style="color: rgb(236, 181, 108);"></span>
+                <span class="fa fa-star checked" style="color: rgb(236, 181, 108);"></span>
+                <span class="fa fa-star checked" style="color: rgb(236, 181, 108);"></span>
+        <p>Overall how would you rate your experience with us?</p>
+    <div><b>How satiesfied are you with</b><span  style="color:red">*</span></div> 
+    <table class="tab1">
+      <tr>
+      <th> </th>
+      <th>Very Unsatiesfied</th>
+      <th>Unsatiesfied</th>
+      <th>Neutral</th>
+      <th>Satiesfied</th>
+      <th>Very Satiesfied</th>
+    </tr>
+    <tr>
+      <td id="d1">Purchase</td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+    </tr>
+    <tr>
+      <td id="d2">Service</td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+    </tr>
+    <td id="d3">Company Overall</td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+
+    </table>
+    <br>
+    <div><b>How likely are you to</b><span  style="color:red">*</span></div> 
+    <table class="tab2">
+      <tr>
+      <th> </th>
+      <th>Very Unlikely</th>
+      <th>Unlikely</th>
+      <th>Neutral</th>
+      <th>Likely</th>
+      <th>Very Unlikely</th>
+    </tr>
+    <tr>
+      <td id="d4">Buy from us again</td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+    </tr>
+    <tr>
+      <td id="d5">Recommend our product to others</td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+    </tr>
+    <td id="d6">Recommend our company to others</td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td><input type="radio"></td>
+      <td ><input type="radio"></td>
+      <td ><input type="radio"></td>
+    </table>
+    <br>
+    <div><b><label for="review">Additional comments or suggestions</label></b></div>
+    <textarea name="review" id="review" cols="147" rows="5"></textarea>
+     <button>Submit</button>
+         </form>
+       </div>
+    </div>
+ </div>    
+</body>
+</html>
